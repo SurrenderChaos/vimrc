@@ -1,6 +1,8 @@
 let mapleader = "\<Space>"
 inoremap kj <Esc>
 cnoremap <silent> kj <Esc>
+inoremap KJ <Esc>
+cnoremap <silent> KJ <Esc>
 nnoremap <leader>rv :source $HOME/_vimrc<CR>
 set nu rnu
 set ruler
